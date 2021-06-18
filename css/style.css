@@ -15,6 +15,7 @@
 
 .ph {
     padding-top: 15rem;
+    color: aliceblue;
 }
 
 .mouse {
@@ -30,6 +31,13 @@
     font-size: 2rem;
 }
 
-#about {
+.aboutus {
     padding-top: 5rem;
+}
+
+#services {
+    background-image: url("../assets/s_image.jpg");
+    background-position: center;
+    height: 70vh;
+    width: 100%;
 }
