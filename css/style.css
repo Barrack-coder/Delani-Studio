@@ -1,19 +1,35 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-
-/* body {
-    overflow-x: hidden;
-} */
-
-.container {
+#land {
     background-image: url("../assets/h_img.jpg");
     background-position: center;
-    text-align: center;
-    height: auto;
-    background-size: cover;
-    /* padding-top:25%; */
-    text-decoration-color: white;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Kirang Haerang', cursive;
+    color: aliceblue;
+}
+
+.ph {
+    padding-top: 15rem;
+}
+
+.mouse {
+    margin-top: 8rem;
+}
+
+.hd {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.small {
+    font-size: 2rem;
+}
+
+#about {
+    padding-top: 5rem;
 }
