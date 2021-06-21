@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.menu-flex {
+    display: flex;
+}
+
 #land {
     background-image: url("../assets/h_img.jpg");
     background-position: center;
@@ -57,11 +61,8 @@
     display: none;
 }
 
-.work-image {
-    position: relative;
-}
 
-.work1-overlay,
+/* .work1-overlay,
 .work2-overlay,
 .work3-overlay,
 .work4-overlay,
@@ -76,10 +77,12 @@
     top: 0;
     bottom: 0;
     width: 90%;
-}
+} */
 
 #form {
     background-image: url("../assets/c_image.jpg");
+    height: 50vh;
+    width: 100%;
 }
 
 .pt-5 {
