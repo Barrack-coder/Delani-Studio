@@ -33,6 +33,7 @@
 
 .aboutus {
     padding-top: 5rem;
+    font-family: 'Londrina Shadow', cursive;
 }
 
 #services {
@@ -75,4 +76,50 @@
     top: 0;
     bottom: 0;
     width: 90%;
+}
+
+#form {
+    background-image: url("../assets/c_image.jpg");
+}
+
+.pt-5 {
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.input {
+    display: inline;
+}
+
+#form input {
+    width: 35%;
+    background-color: transparent;
+}
+
+#name {
+    margin-left: 12%;
+    color: aliceblue;
+}
+
+#email {
+    margin-left: 5%;
+    color: aliceblue;
+}
+
+#form textarea {
+    background-color: transparent;
+    color: aliceblue;
+}
+
+#email::placeholder {
+    color: aliceblue;
+}
+
+#name::placeholder {
+    color: aliceblue;
+}
+
+textarea::placeholder {
+    color: aliceblue;
 }
