@@ -70,7 +70,7 @@ barry($("#assets"), $("#para"));
 barry($("#mana"), $("#ment"));
 
 (".class").hover(function() {
-    $(this).children(".wonger").slideToggle(1000, "linear");
+    $(this).children(".lay").slideToggle(1000, "linear");
 });
 
 $("button").click(function(barry) {
