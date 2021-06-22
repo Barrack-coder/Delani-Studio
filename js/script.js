@@ -69,7 +69,7 @@ barry($("#des"), $("#prac"));
 barry($("#assets"), $("#para"));
 barry($("#mana"), $("#ment"));
 
-(".class").hover(function() {
+(".name").hover(function() {
     $(this).children(".lay").slideToggle(1000, "linear");
 });
 
