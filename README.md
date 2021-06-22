@@ -18,7 +18,7 @@ This is a project that shows how Delani Studio does their works. And it allows u
 ​
 ## Live Demo
 ​
-[Live Demo Link]()
+[Live Demo Link](https://barrack-coder.github.io/Delani-Studio/)
 ​
 ​
 ## Getting Started
