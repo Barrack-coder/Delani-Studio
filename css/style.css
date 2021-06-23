@@ -53,8 +53,9 @@
     display: none;
 }
 
-.kenya {
-    /* margin-left: -4rem; */
+.work:hover img {
+    transform: scale(1.1);
+    transition: all 0.4s ease-out;
 }
 
 .wonger {
@@ -66,7 +67,13 @@
     box-shadow: 3px 2px 3px black;
     border: 2px solid white;
     text-shadow: 3px 2px 3px black;
+    opacity: 0;
+    cursor: pointer;
     font-family: 'londrina Shadow', cursive;
+}
+
+.wonger:hover {
+    opacity: 1;
 }
 
 #form {

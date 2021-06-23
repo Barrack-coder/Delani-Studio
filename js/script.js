@@ -1,4 +1,4 @@
-function barry(a,b) {
+function barry(a, b) {
     $(document).ready(function() {
         a.click(function() {
             a.toggle();
@@ -14,18 +14,31 @@ function barry(a,b) {
 barry($('.des'), $('.prac'));
 barry($(".assets"), $("#para"));
 barry($("#mana"), $("#ment"));
+// ("button").click(function() {
 
-$('.lay').hover(function() {
-    $(this).children('.wonger').slideToggle(1000, 'linear');
-});
 
-$("button").click(function(barry) {
-    alert(' Dear ' + 'customer' + ' Thank you for contacting us. We have received your message ' + ' we are there for you');
-    barry.preventDefault();
-});
 
-$("button").on('click', function() {
-    $('form').each(function() {
-        this.reset();
-    });
-});
+
+function barrack() {
+    let message = document.getElementById("message");
+    let info = document.getElementById('message').value;
+    if (info == "") {
+        alert("invalid response")
+        $(".button").on('click', function() {
+            $('form').each(function() {
+                this.reset();
+            });
+        });
+    } else {
+        alert("we have received your message")
+    }
+};
+
+
+
+
+// });
+// $(".button").click(function() {
+//     alert(' Dear ' + 'customer' + ' Thank you for contacting us. We have received your message ' + ' we are there for you');
+//     barry.preventDefault();
+// });
