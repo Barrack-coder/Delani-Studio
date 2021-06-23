@@ -28,6 +28,6 @@ function barrack() {
             });
         });
     } else {
-        alert("we have received your message")
+        alert("We have received your message")
     }
 };
