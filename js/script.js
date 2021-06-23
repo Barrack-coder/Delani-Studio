@@ -13,9 +13,7 @@ function barry(a, b) {
 
 barry($('.des'), $('.prac'));
 barry($(".assets"), $("#para"));
-barry($("#mana"), $("#ment"));
-// ("button").click(function() {
-
+barry($("#mana"), $("#ment"))
 
 
 
@@ -33,12 +31,3 @@ function barrack() {
         alert("we have received your message")
     }
 };
-
-
-
-
-// });
-// $(".button").click(function() {
-//     alert(' Dear ' + 'customer' + ' Thank you for contacting us. We have received your message ' + ' we are there for you');
-//     barry.preventDefault();
-// });
