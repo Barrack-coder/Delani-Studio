@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -49,33 +49,24 @@
     font-size: 20px;
 }
 
-#design {
+.you {
     display: none;
 }
 
-#development {
-    display: none;
+.kenya {
+    /* margin-left: -4rem; */
 }
 
-#product-mgt {
-    display: none;
-}
-
-.work1-overlay,
-.work2-overlay,
-.work3-overlay,
-.work4-overlay,
-.work5-overlay,
-.work6-overlay,
-.work7-overlay,
-.work8-overlay {
-    display: none;
-    background-color: black;
-    opacity: 0.7;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 90%;
+.wonger {
+    position: relative;
+    top: -10rem;
+    left: 5rem;
+    width: 60%;
+    color: aliceblue;
+    box-shadow: 3px 2px 3px black;
+    border: 2px solid white;
+    text-shadow: 3px 2px 3px black;
+    font-family: 'londrina Shadow', cursive;
 }
 
 #form {
@@ -90,9 +81,10 @@
     font-weight: bold;
 }
 
-.input {
+
+/* .input {
     display: inline;
-}
+} */
 
 #form input {
     width: 35%;
